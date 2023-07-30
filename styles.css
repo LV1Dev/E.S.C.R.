@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(24, 24, 24);
+    font-family: 'Fira Code', monospace;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+  }
+  
+  .icon-box i {
+    font-size: 48px;
+    color: #cacaca;
+    margin: 30px;
+  }
+  
+  .icon-text {
+    font-size: 32px;
+    color: #cacaca; 
+    letter-spacing: 1px;
+    margin-top: 20px;
+  }
+  
+
+  .yellow-letter {
+    color: rgb(255, 255, 0);
+  }
+
+  .green-letter {
+    color: rgb(90, 221, 15);
+  }
+
+  .blue-letter {
+    color: rgb(48, 149, 207);
+  }
+
+  .red-letter {
+    color: red;
+  }
+
+  .tooltip {
+    font-size: 12px;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+  }
+
+  h1 {
+    font-weight: lighter;
+    font-size: 32px;
+    color: #cacaca;
+    letter-spacing: 1px;
+  }
+  
+
+  .game-box {
+    font-size: 48px;
+    color: #cacaca;
+    margin: 30px;
+  }
